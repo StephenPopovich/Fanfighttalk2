@@ -145,9 +145,7 @@ img#counter:hover{
     border-radius: 80% !important;
     margin-top: -5%;
     border: black;
-    -webkit-box-shadow: 3px 3px 9px 12px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 9px 12px black;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 9px 12px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    box-shadow: none; 
 }
 .navbar-default {
     background: -webkit-linear-gradient(bottom, red, black) !important;
@@ -501,10 +499,12 @@ div#chatroom{
   background-size: cover;
 }
 iframe#chatroom2{
-  display: none;
-}
-iframe#chatroom1{
   display: block;
+  border-radius: 3px;
+
+}
+#divPowered{
+  display: none !important;
 }
 div#poll{
     padding: 9px !important;
@@ -640,6 +640,7 @@ nav .brand-logo:hover {
   padding: 4px;
 
 }
+
 u#footersite{
   font-size: 35px;
   font-style: italic;

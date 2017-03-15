@@ -46,9 +46,6 @@
 
 
 
-	<script src="js/controllers/main.js"></script> <!-- load up our controller -->
-	<script src="js/services/todos.js"></script> <!-- load our todo service -->
-	<script src="js/core.js"></script> <!-- load our main application -->
 	<script type="text/javascript" src="js/materalize.js"></script>
 
 </head>
@@ -100,7 +97,7 @@
 
 				<h4 id="by">By: Stephen and Mark Popovich<h4>
 
-					<p>	<img id="logo16" src="./images/logo16.png" alt="welcome to our site :)" />Site Vists:<img id="counter" src="http://www.reliablecounter.com/count.php?page=www.fanfighttalk.com&digit=style/plain/16/&reloads=1" alt="" title="" border="0"></a><br /><a href="http://" target="_blank" style="font-family: Geneva, Arial; height: 50px; width: 50px; font-size: 16px; color: #330010; text-decoration: none;"></a></p>
+					<p>	<img id="logo16" src="./images/logo16.png" label style="border: none;"  alt="welcome to our site :)" />Site Vists:<img id="counter" src="http://www.reliablecounter.com/count.php?page=www.fanfighttalk.com&digit=style/plain/16/&reloads=1" alt="" title="" border="0"></a><br /><a href="http://" target="_blank" style="font-family: Geneva, Arial; height: 50px; width: 50px; font-size: 16px; color: #330010; text-decoration: none;"></a></p>
 
 					<div class="center-align">
 							 <div class="col s12">
@@ -653,7 +650,7 @@
 
 	</div>
 
-	<img id="thumb1" src="http://www.ifis.co.za/images/transparent-background-logo_0000_fingerprint-red.png" alt="">
+	<img id="thumb1"  style="display: none;" src="http://www.ifis.co.za/images/transparent-background-logo_0000_fingerprint-red.png" alt="">
 
 
 	<div id="chatroom" style="-webkit-overflow-scrolling: touch;">
@@ -662,16 +659,12 @@
 				<div class="row">
 
 						<div class="col-xs-12 col-sm-12 col-md-12">
-
-							<h3 id="subtitle"><u>Chatroom</u></h3>
-							<iframe id="chatroom1" src="http://chat.addachat.com/?bgs=on&bg=red&name=Fan&room=Fanfighttalk&sidebar=on&format=on&images=on" height="600" width="94%" name="gFrameTop"></iframe>
-
-							<!-- Smiley Chatbox HTML code -->	
-								<noscript>Enable Javascript to get full functionality of this <a href="http://www.smileychatbox.com" target="_blank">chatbox</a><br></noscript>
-								<iframe id="chatroom2" marginwidth="0px" marginheight="0px" style="border: 2px groove black; overflow: auto;" scrolling="yes" src ="http://www.smileychatbox.com/app/chatbox.php?boxHeight=600&innerColor=2C384A&outerColor=cc0033&chatbox=fanfighttalk&imageSupport=yes&style=funny&swearWordsFilter=yes&ss=0123456789abcdefghijku&password=b9f47244a956405343c225e3b62e0a34" width="96%" height="600px">
+<!-- 
+							<h3 id="subtitle"><u>Chatroom</u></h3> -->
+			
+								<iframe id="chatroom2" marginwidth="0px" marginheight="0px" style="border: 3px groove black; overflow: auto; border-radius: 3px;" scrolling="yes" src ="http://www.smileychatbox.com/app/chatbox.php?boxHeight=600&innerColor=2C384A&outerColor=cc0033&chatbox=fanfighttalk&imageSupport=yes&style=funny&swearWordsFilter=yes&ss=0123456789abcdefghijku&password=b9f47244a956405343c225e3b62e0a34" width="95.9%" height="600px">
 								</iframe>
 								
-							<!-- Smiley Chatbox HTML code -->
 
 						</div>
 				</div>
@@ -680,7 +673,7 @@
 
 						<div class="col-xs-12 col-sm-12 col-md-12" id="">
 							 <h4 id="articletitle">Current Poll:</h4>
-							 <form method="post"  action="http://poll.pollcode.com/59856135"><div id="poll" style="background-color:#8A0707;padding:2px;width:100%; height: 500px;font-family:Arial;font-size:larger;color:#FFFFFF;box-shadow: 0px 0px 5px #888;"><div style="padding:2px 0px 4px 2px;"><strong>If Floyd and Conor fight, who will win? How?</strong></div><input type="radio" name="answer" value="1" id="answer598561351" style="float:left;" /><label for="answer598561351" style="">Conor will get smashed within the first 4 rounds</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="2" id="answer598561352" style="float:left;" /><label for="answer598561352" style="">Floyd will run and will get a decision</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="3" id="answer598561353" style="float:left;" /><label for="answer598561353" style="">Floyd will get knocked out in the first few rounds</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="4" id="answer598561354" style="float:left;" /><label for="answer598561354" style="">Conor will Aldo Floyd</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="5" id="answer598561355" style="float:left;" /><label for="answer598561355" style="">Don't care, fight will never happen!</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="6" id="answer598561356" style="float:left;" /><label for="answer598561356" style="">Conor will win decision</label><div style="clear:both;height:2px;"></div><div align="center" style="padding:3px;"><input type="submit" id="vote" value=" Vote ">&nbsp;<input id="view" type="submit" name="view" value=" View "></div><div align="right" style="font-size:10px"></div></div></form>
+							 <form method="post"  action="http://poll.pollcode.com/59856135"><div id="poll" style="background-color:#8A0707;padding:2px;width:100%; height: 500px;font-family:Arial;font-size:larger;color:#FFFFFF;box-shadow: 0px 0px 5px #888;"><div style="padding:2px 0px 4px 2px;"><strong>If Floyd and Conor fight, who will win? How?</strong></div><input type="radio" name="answer" value="1" id="answer598561351" style="float:left;" /><label for="answer598561351" style="">Conor will get smashed within the first 4 rounds</label style="font-size: 17px;" ><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="2" id="answer598561352" style="float:left;" /><label for="answer598561352" style="">Floyd will run and will get a decision</label style="font-size: 17px;" ><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="3" id="answer598561353" style="float:left;" /><label for="answer598561353" style="">Floyd will get knocked out in the first few rounds</label style="font-size: 17px;" ><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="4" id="answer598561354" style="float:left;" /><label for="answer598561354" style="">Conor will Aldo Floyd</label style="font-size: 17px;" ><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="5" id="answer598561355" style="float:left;" /><label for="answer598561355" style="">Don't care, fight will never happen!</label style="font-size: 17px;" ><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="6" id="answer598561356" style="float:left;" /><label for="answer598561356" style="">Conor will win decision</label style="font-size: 17px;" ><div style="clear:both;height:2px;"></div><div align="center" style="padding:3px;"><input type="submit" id="vote" value=" Vote ">&nbsp;<input id="view" type="submit" name="view" value=" View "></div><div align="right" style="font-size:10px"></div></div></form>
 
 						</div>
 
@@ -800,11 +793,6 @@
 		<script src="http://uguru-realestate-us-jun202013.businesscatalyst.com/3d-slider/sliderengine/jquery.js"></script>
 		<script src="http://uguru-realestate-us-jun202013.businesscatalyst.com/3d-slider/sliderengine/amazingslider.js"></script>
 		<script src="http://uguru-realestate-us-jun202013.businesscatalyst.com/3d-slider/sliderengine/initslider-1.js"></script>
-
-		<!-- <div class="text-center text-muted">
-			<p>A demo by <a href="http://scotch.io">Scotch</a>.</p>
-			<p>Read the <a href="http://scotch.io/tutorials/javascript/creating-a-single-page-todo-app-with-node-and-angular">tutorial</a>.<
-		</div> -->
 
 	</div>
 
