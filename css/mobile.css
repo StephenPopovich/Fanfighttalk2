@@ -353,12 +353,6 @@
       1px 1px 0 #000;
     font-family: 'Fjalla One', sans-serif;
   }
-
-  label{
-    color: white;
-    font-size: 7px;
-    font-family: 'Fjalla One', sans-serif;
-  }
   .messages{
     background-image: url("http://coolblackppt.com/wp-content/uploads/cool-red-and-black-backgrounds-20150318210957-5509e9a598331.jpg");
     background-size:  cover;
@@ -566,7 +560,7 @@
 
   label{
     color: white;
-    font-size: 15px;
+    font-size: 15.8px;
     margin-left: 2%;
     font-family: 'Fjalla One', sans-serif;
     text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;

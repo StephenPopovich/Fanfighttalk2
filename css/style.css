@@ -370,6 +370,7 @@ footer.page-footer{
 label{
   color: white;
   font-size: 25px;
+  width: initial !important;
   margin-left: 2%;
   font-family: 'Fjalla One', sans-serif;
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
