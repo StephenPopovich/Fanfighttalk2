@@ -493,6 +493,12 @@ div#chatroom{
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
 }
+iframe#chatroom2{
+  display: none;
+}
+iframe#chatroom1{
+  display: block;
+}
 input#vote{
   color: white;
   font-size: 32px;
