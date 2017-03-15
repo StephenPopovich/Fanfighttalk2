@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 570px) {
   *{
 
   }
@@ -447,6 +447,41 @@
     -moz-box-shadow:    4px 4px 7px 7px red;  /* Firefox 3.5 - 3.6 */
     box-shadow:         4px 4px 7px 7px red;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   }
+   img#thumb1{
+    border: none;
+    display: inline;
+    height: 120px;
+    margin-left: 39%;
+    width: 100px;
+    margin-top: -5%;
+    margin-bottom: 8%;
+  }
+  img#thumb1:hover{
+    border: none;
+    display: inline;
+    height: 120px;
+    border-radius: 48%;
+    margin-left: 39%;
+    width: 100px;
+    margin-top: -5%;
+    margin-bottom: 8%;
+    -webkit-box-shadow: 3px 3px 5px 5px red;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 5px red;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 5px red;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  img#thumb1:focus{
+    border: none;
+    display: inline;
+    height: 120px;
+    border-radius: 49%;
+    margin-left: 39%;
+    width: 100px;
+    margin-top: -5%;
+    margin-bottom: 8%;
+    -webkit-box-shadow: 4px 4px 7px 7px red;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    4px 4px 7px 7px red;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         4px 4px 7px 7px red;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
   div#news{
     width: 88%;
     margin-left: 1.8%;
@@ -528,7 +563,7 @@
 
   label{
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     margin-left: 2%;
     font-family: 'Fjalla One', sans-serif;
     text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
