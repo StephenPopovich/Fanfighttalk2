@@ -16,7 +16,7 @@ body{
   height: 100%;
 }
 .container-fluid{
-  overflow: scroll;
+  overflow: auto;
 }
 .jumbotron h1 {
     font-size: 35px;
@@ -137,7 +137,7 @@ img#counter:hover{
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  color: white !important;
+  color: black !important;
   background: black !important;
 }
 .partial{
@@ -450,6 +450,7 @@ img#thumb1:hover{
 img#news{
   height: 315px;
 }
+
 div#news{
   width: 98%;
   margin-left: 7px;
@@ -461,6 +462,7 @@ div#news{
   margin-top: -3.5%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
+  overflow-x: hidden;
 
 }
 div#videos{
@@ -473,6 +475,8 @@ div#videos{
   margin-bottom: 3%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
+  overflow-x: hidden;
+
 }
 div#podcast{
   width: 98%;
@@ -484,17 +488,21 @@ div#podcast{
   margin-bottom: 5%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
+  overflow-x: hidden;
+
 }
 div#events{
   width: 98%;
   margin-left: 7px;
   border: 4px groove red;
   border-radius: 2px;
-  height: 600px;
+  height: 700px;
   overflow: scroll;
   margin-bottom: 5%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
+  overflow-x: hidden;
+
 }
 div#chatroom{
   width: 98%;
@@ -506,6 +514,8 @@ div#chatroom{
   margin-bottom: 5%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
+  overflow-x: hidden;
+
 }
 iframe#chatroom2{
   display: block;
