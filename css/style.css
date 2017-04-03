@@ -17,6 +17,47 @@ body{
 }
 .container-fluid{
   overflow: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.carousel {
+    position: relative;
+    margin-top: 6%;
+    border: 3px groove red;
+}
+.carousel:hover {
+    position: relative;
+    margin-top: 6%;
+    border: 10px groove black;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 !important;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: red;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .jumbotron h1 {
     font-size: 35px;
