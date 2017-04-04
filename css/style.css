@@ -364,7 +364,12 @@ label {
 
 label:hover {
   cursor: pointer;
+  border-bottom: ;
 }
+label:active {
+  cursor: pointer;
+}
+
 
 label::before {
   background: $primary-blue-color;
@@ -376,9 +381,7 @@ label::before {
   top: 0; right: 0; bottom: .5em; left: 0;
   transform: perspective(5px) rotateX(2deg);
   transform-origin: bottom;
-  z-index: -1;
 }
-
 h2 {
   font: {
     family: $font-roboto;
