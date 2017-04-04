@@ -288,13 +288,10 @@ section
     background-size: cover;
 }
 article#content2{
-  background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
-    background-size: cover;
 
 }
 article#content3{
-  background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
-    background-size: cover;
+  
 }
 input[type=text]{
   font-size: 2rem;
@@ -371,7 +368,7 @@ label:hover {
 
 label::before {
   background: $primary-blue-color;
-  border: .1em solid #aaa;
+  border: .1em solid red;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
   content: '';
@@ -398,7 +395,16 @@ p {
 
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
-#tab3:checked ~ #content3 {
+#tab3:checked ~ #content3,
+#tab11:checked ~ #content11,
+#tab22:checked ~ #content22,
+#tab33:checked ~ #content33,
+#tab111:checked ~ #content111,
+#tab222:checked ~ #content222,
+#tab333:checked ~ #content333,
+#tab1111:checked ~ #content1111,
+#tab2222:checked ~ #content2222,
+#tab3333:checked ~ #content3333 {
   display: block;
 }
 
@@ -1295,6 +1301,11 @@ video:active {
   }
   .carousel-inner>.item>a>img, .carousel-inner>.item>img {
 
+  }
+  span.sr-only {
+    color: red;
+    outline: red;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
   }
   p#slidetext{
     color: red !important;
