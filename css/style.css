@@ -19,6 +19,7 @@ body{
   overflow: auto;
   padding-left: 0px;
   padding-right: 0px;
+  overflow-x: hidden;
 }
 .carousel {
     position: relative;
@@ -327,7 +328,12 @@ input[type=text]:active{
   margin: auto;
   width: 100%;
 }
-
+img.tabicon{
+  padding-top: 17%;
+  height: 70px;
+  width: 80px;
+  border: none;
+}
 #accordion-tab {
   margin: 0 auto;
   padding: 10px;
@@ -338,6 +344,12 @@ article {
   display: none;
 }
 
+article#content1, 
+article#content11, 
+article#content111, 
+article#content1111 {
+  display: block;
+}
 input {
   display: none;
   position: relative;
@@ -527,7 +539,7 @@ footer.page-footer{
   font-family: 'Fjalla One', sans-serif;
 }
 
-label{
+ label{
   color: white;
   font-size: 25px;
   width: initial !important;
