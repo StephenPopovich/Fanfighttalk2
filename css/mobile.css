@@ -69,6 +69,22 @@
     color: white;
     text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
   }
+  h3#visittext{
+   font-size: 18px;
+   margin-left: 2%;
+  }
+  img#counter{
+    height: 40px;
+    width: 40px;
+    border: 1px groove black;
+
+  }
+  img#counter:hover{
+    height: 40px;
+    width: 40px;
+    border: none;
+    box-shadow: none;
+  }
   #blood{
     width: 120px;
     height: 55px;
@@ -100,6 +116,17 @@
   #logo16:hover{
     height: 60px;
     width: 60px;
+    box-shadow: none;
+    margin-left: 2%;
+  }
+  img.gificon{
+    height: 90px;
+    width: 90px;
+    margin-left: 2%;
+  }
+  img.gificon:hover{
+    height: 90px;
+    width: 90px;
     box-shadow: none;
     margin-left: 2%;
   }
@@ -501,7 +528,7 @@
     width: 88%;
     margin-left: 1.8%;
     border: 4px groove red;
-    height: 399px;
+    height: auto;
     border-radius: 9px;
     overflow: auto;
     margin-bottom: 23%;
@@ -514,7 +541,7 @@
     width: 88%;
     margin-left: 1.8%;
     border: 4px groove red;
-    height: 422px;
+    height: auto;
     border-radius: 9px;
     overflow: auto;
     margin-bottom: 10%;
@@ -527,7 +554,7 @@
     margin-left: 1.8%;
     border: 4px groove red;
     border-radius: 9px;
-    height: 422px;
+    height: auto;
     overflow-y: auto;
     margin-bottom: 23%;
     background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
@@ -538,7 +565,7 @@
     width: 88%;
       margin-left: 1.8%;
     border: 4px groove red;
-    height: 422px;
+    height: auto;
     border-radius: 9px;
     overflow: auto;
     margin-bottom: 23%;
@@ -874,6 +901,10 @@
   h5#socialtitle{
     font-size: 23px;
   }
+  div#social_media{
+    margin-right: 0 !important;
+    margin-left: -10% !important;
+  }
   li {
     font-size: 20px;
   }
@@ -881,23 +912,23 @@
     display: none;
   }
   #social_media img{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-left: 2%;
     border-radius: 10px;
     border: none;
     box-shadow: 3px 3px 5px 2px #b71c1c;
   }
   #social_media img:hover{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin-left: 2%;
     border-radius: 10px;
     box-shadow: 3px 3px 5px 2px white;
   }
   #social_media img:focus{
-    width: 40px;
-    height: 400px;
+    width: 60px;
+    height: 60px;
     margin-left: 2%;
     border-radius: 15px;
     box-shadow: 3px 3px 5px 2px white;
@@ -1155,6 +1186,7 @@
      margin: 0;
      background-color: #4CB8C4 !important;
    }
+
    .carousel-caption{
      color: #25b7c4 !important;
      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
