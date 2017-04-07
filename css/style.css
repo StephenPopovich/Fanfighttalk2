@@ -2,12 +2,13 @@
 
 }
 html{
-  overflow: none;
+  overflow-x: hidden;
 }
   ::-webkit-scrollbar {
     width: 12px;
 
-  }
+}
+
 body{
   background-image: url("http://static1.squarespace.com/static/55b61839e4b04e39fb625165/t/55b692e9e4b0b4cd5d2f9c47/1438028524658/background.jpg?format=2500w");
   background-size: cover;
@@ -72,7 +73,7 @@ a.carousel-control{
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
     width: 100%;
-    height: 400px;
+    height: 378px;
     margin: 0 !important;
 }
 .carousel-indicators .active {
@@ -93,40 +94,6 @@ a.carousel-control{
     border: 1px solid black;
     border-radius: 10px;
 }
-.jumbotron h1 {
-    font-size: 35px;
-    color: white;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
-}
- .jumbotron {
-    font-size: 21px;
-    font-weight: 200;
-    text-align: center;
-    margin-bottom: 4%;
-    margin-top: 4%;
-    line-height: 2.1428571435;
-    color: inherit;
-    opacity: .8;
-    background: url(https://static1.squarespace.com/static/563d2e92e4b07df2a1051884/t/578780258419c2bff4a5517d/1468549319287/UFC-BKGD.jpg?format=1500w) no-repeat center center;
-    -webkit-box-shadow: 3px 3px 9px 12px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 9px 12px black;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 9px 12px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    /* background-color: green; */
-}
-.jumbotron:hover {
-   font-size: 21px;
-   text-align: center;
-   margin-bottom: 4%;
-   font-weight: 200;
-   margin-top: 4%;
-   line-height: 2.1428571435;
-   color: inherit;
-   opacity: .8;
-   background: url(https://static1.squarespace.com/static/563d2e92e4b07df2a1051884/t/578780258419c2bff4a5517d/1468549319287/UFC-BKGD.jpg?format=1500w) no-repeat center center;
-   -webkit-box-shadow: 3px 3px 9px 12px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-   -moz-box-shadow:    3px 3px 9px 12px black;  /* Firefox 3.5 - 3.6 */
-   box-shadow:         3px 3px 9px 12px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-}
 div#visiting{
   margin-top: 2%;
   margin-bottom: 4%;
@@ -143,17 +110,17 @@ h4#by{
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
 }
 h3#visittext{
-  font-size: 26px;
+  font-size: 23.6px;
 }
 img#counter{
-  height: 62px;
-  width: 62px;
+  height: 49px;
+  width: 49px;
   border: 1px groove black;
 
 }
 img#counter:hover{
-  height: 62px;
-  width: 62px;
+  height: 52px;
+  width: 52px;
   border: none;
   box-shadow: none;
 }
@@ -295,8 +262,9 @@ img.gificon:hover{
     margin: auto;
 }
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: white !important;
     font-size: 14px;
+    text-shadow: 0 2px 0 rgba(255,255,255,.25);
 }
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
@@ -375,11 +343,17 @@ input[type=text]:active{
   margin: auto;
   width: 100%;
 }
+
+img.article{
+  height: 405px !important;
+}
 img.tabicon{
   padding-top: 19%;
   height: 75px;
   width: 90px;
   border: none;
+   position: relative;
+    z-index: 10000;
 }
 img.tabicon:hover{
   padding-top: 19%;
@@ -387,6 +361,8 @@ img.tabicon:hover{
   width: 100px;
   border: none;
   box-shadow: none !important;
+   position: relative;
+    z-index: 10000;
 }
 
 #accordion-tab {
@@ -441,7 +417,8 @@ label:active {
 
 
 label::before {
-  background: $primary-blue-color;
+  background: red;
+  opacity: .4;
   border: .1em solid red;
   border-bottom: none;
   border-radius: 10px 10px 0 0;
@@ -451,6 +428,7 @@ label::before {
   transform: perspective(5px) rotateX(2deg);
   transform-origin: bottom;
 }
+
 h2 {
   font: {
     family: $font-roboto;
@@ -478,18 +456,6 @@ p {
 #tab2222:checked ~ #content2222,
 #tab3333:checked ~ #content3333 {
   display: block;
-}
-
-@media screen and (max-width: 915px) {
-  #accordion-tab {
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-  }
-  label {
-    font-size: 15px;
-    padding: 1.5em 1.2em 1em;
-  }
 }
 .form-control {
     display: block;
@@ -624,7 +590,7 @@ footer.page-footer{
   opacity: 0.82;
   position: relative;
   border-radius: 6px;
-  box-shadow: 3px 3px 12px 2px #b71c1c;
+  box-shadow: ;
   width: 75%;
   height: 35%
 }
@@ -826,7 +792,7 @@ hr{
   /* The alpha value allows the text and background color
   of the button to still show through. */
    background-color:  #b71c1c;
- }
+}
 textarea{
   border: 2px solid red;
   box-shadow: 6px 6px 16px 4px #b71c1c;
@@ -835,12 +801,6 @@ textarea{
   height: 35%;
 
 }
-
-waves-effect waves-light btn
-ol{
- padding-left: initial;
- }
-
 
 .brand-logo img{
   box-shadow: 0px 0px 0px 0px;
@@ -1118,10 +1078,6 @@ img#socialmedia:hover{
   box-shadow: 3px 3px 8px 2px white;
 }
 
-
-.twitter-follow-button{
-
-
 .twitter-follow-button{
   right: 40%;
   box-shadow: 3px 3px 8px 2px #b71c1c;
@@ -1263,7 +1219,6 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 a:link {
-  color: #b71c1c;
   font-size: 19px;
 }
 
@@ -1335,7 +1290,17 @@ video:active {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 400px !important;
+    height: 400px;
+}
+h3.line1{
+ color: red !important;
+ font-size: 40px !important;
+ text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
+}
+p.line2{
+  color: red !important;
+  font-size: 22px;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black !important;
 }
 .carousel-inner img {
    width: 100%; /* Set width to 100% */
@@ -1346,20 +1311,37 @@ video:active {
    width: 12px;
    height: 12px;
    margin: 0;
-   background-color: #4CB8C4 !important;
  }
-
- .carousel-caption{
-   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
-   color: #25b7c4 !important;
-   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-
+ .carousel-caption {
+    padding-bottom: 30px;
+    color: red;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-align: left;
+ }
+ div#caption1.carousel-caption{
+    right: 30%;
+    left: 10%;
+ }
+ div#caption2.carousel-caption{
+    right: 30%;
+    left: 40%;
+ }
+ div#caption3.carousel-caption{
+    right: 30%;
+    left: 40%;
+ }
+ div#caption4.carousel-caption{
+    right: 20%;
+    left: 30%;
+ }
+  div#caption5.carousel-caption{
+    right: 30%;
+    left: 50%;
  }
  .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
-  border: 4px groove #25b7c4 !important;
   }
  .carousel-inner>.item>a>img, .carousel-inner>.item>img {
 
@@ -1395,7 +1377,7 @@ video:active {
     font-size: 18px;
     background: black !important;
     color: red !important;
-}
+  }
   h1 {
     font-weight: 300;
     margin: 0;
@@ -1403,9 +1385,10 @@ video:active {
 
   }
   span{
-    color: black !important;
     font: black !important;
+
   }
+
 
   .fw700 {
     font-weight: 700;
@@ -1414,15 +1397,27 @@ video:active {
   .topspace{
     margin:100px auto;max-width:805px;
   }
-  @media (max-width: 992px) {
-    body
-    {
-      background:red;
-    }
-    .opaque-navbar {
-      background-color: black;
-      height: 60px;
-      transition: background-color .5s ease 0s;
+}
+@media (max-width: 992px) {
+  body
+  {
+    background:red;
+  }
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
   }
 
+}
+@media screen and (max-width: 915px) {
+  #accordion-tab {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
   }
+  label {
+    font-size: 15px;
+    padding: 1.5em 1.2em 1em;
+  }
+}

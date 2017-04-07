@@ -2,7 +2,6 @@
   *{
 
   }
-
   body{
     background-image: url("http://static1.squarespace.com/static/55b61839e4b04e39fb625165/t/55b692e9e4b0b4cd5d2f9c47/1438028524658/background.jpg?format=2500w");
     background-size: cover;
@@ -16,8 +15,8 @@
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
-    margin-left: auto;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .jumbotron h1 {
       display: none;
@@ -70,12 +69,12 @@
     text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
   }
   h3#visittext{
-   font-size: 18px;
+   font-size: 16px;
    margin-left: 2%;
   }
   img#counter{
-    height: 40px;
-    width: 40px;
+    height: 32px;
+    width: 32px;
     border: 1px groove black;
 
   }
@@ -109,9 +108,9 @@
     z-index: 1000;
   }
   #logo16{
-    height: 60px;
-    width: 60px;
-    margin-left: 2%;
+    height: 50px;
+    width: 50px;
+    margin-left: 1.2%;
   }
   #logo16:hover{
     height: 60px;
@@ -120,13 +119,13 @@
     margin-left: 2%;
   }
   img.gificon{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     margin-left: 2%;
   }
   img.gificon:hover{
-    height: 90px;
-    width: 90px;
+    height: 70px;
+    width: 70px;
     box-shadow: none;
     margin-left: 2%;
   }
@@ -262,10 +261,6 @@
     padding-right: 2.7%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  section
-  {
-    background:yellow;
   }
 
   input[type=text]{
@@ -535,7 +530,7 @@
     margin-top: -2.5%;
     background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   div#videos{
     width: 88%;
@@ -547,7 +542,7 @@
     margin-bottom: 10%;
     background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   div#podcast{
     width: 88%;
@@ -559,7 +554,7 @@
     margin-bottom: 23%;
     background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   div#events{
     width: 88%;
@@ -571,7 +566,7 @@
     margin-bottom: 23%;
     background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
     background-size: cover;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   div#chatroom{
     width: 88%;
@@ -732,7 +727,7 @@
   a{
     color: white;
     font-style: oblique;
-    text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   }
   a:hover{
     color: white;
@@ -764,7 +759,7 @@
   p{
     font-family: 'Fjalla One', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 18.5px;
     font-style: oblique;
 
   }
@@ -934,6 +929,7 @@
     box-shadow: 3px 3px 5px 2px white;
   }
 
+
   img#socialmedia{
     width: 30px;
     height: 30px;
@@ -962,10 +958,6 @@
     right: 40%;
     box-shadow: 3px 3px 8px 2px white;
   }
-
-
-  .twitter-follow-button{
-
 
   .twitter-follow-button{
     right: 40%;
@@ -1099,17 +1091,14 @@
   textarea .prefix {
     color: white;
   }
-  a {
-    color: #b71c1c !important;
-    text-decoration: none;
-  }
+
   a:hover, a:focus {
       color: #b71c1c;
       text-decoration: underline;
   }
   a:link {
-    color: #b71c1c;
-    font-size: 19px;
+    color: white;
+    font-size: 12px;
   }
 
   /* visited link */
@@ -1175,18 +1164,48 @@
   .carousel {
     position: relative;
   }
+  h3.line1{
+    color: red !important;
+    font-size: 18px;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
+  }
+  p.line2{
+    color: red !important;
+    font-size: 11px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black !important;
+  }
+  .carousel-inner>.item>img {
+    display: block;
+    width: 100%;
+    height: 315px !important;
+    margin-top: 2% !important;
+  }
   .carousel-inner img {
      width: 100%; /* Set width to 100% */
      margin: auto;
 
    }
+
+   .carousel-inner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      height: 300px !important;
+    }
    .carousel-indicators .active {
      width: 12px;
      height: 12px;
      margin: 0;
      background-color: #4CB8C4 !important;
    }
-
+    .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    color: red;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-align: left;
+  }
    .carousel-caption{
      color: #25b7c4 !important;
      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
