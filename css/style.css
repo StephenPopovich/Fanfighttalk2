@@ -91,7 +91,7 @@ a.carousel-control{
     cursor: pointer;
     background-color: #000\9;
     background-color: rgba(0,0,0,0);
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
 }
 div#visiting{
@@ -1299,6 +1299,7 @@ h3.line1{
 }
 p.line2{
   width: 138%;
+  margin-left: -8%;
   color: red !important;
   font-size: 22px;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black !important;
