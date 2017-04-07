@@ -649,7 +649,7 @@ div#news{
   margin-top: -3.5%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
-  overflow-x: hidden;
+  overflow: hidden;
 
 }
 div#videos{
@@ -662,7 +662,7 @@ div#videos{
   margin-bottom: 3%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
-  overflow-x: hidden;
+  overflow: hidden;
 
 }
 div#podcast{
@@ -675,7 +675,7 @@ div#podcast{
   margin-bottom: 5%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
-  overflow-x: hidden;
+  overflow: hidden;
 
 }
 div#events{
@@ -688,7 +688,7 @@ div#events{
   margin-bottom: 5%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
-  overflow-x: hidden;
+  overflow: hidden;
 
 }
 div#chatroom{
@@ -701,7 +701,7 @@ div#chatroom{
   margin-bottom: 5%;
   background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
   background-size: cover;
-  overflow-x: hidden;
+  overflow: hidden;
 
 }
 iframe#chatroom2{
@@ -871,9 +871,9 @@ img{
 }
 img:hover{
   border-radius: 5px;
-  -moz-box-shadow: 5px 5px 0px white;
-  -webkit-box-shadow: 5px 5px 0px white;
-  box-shadow: 5px 5px 0px white;
+  -moz-box-shadow: 5px 5px 0px red;
+  -webkit-box-shadow: 5px 5px 0px red;
+  box-shadow: 5px 5px 0px red;
 }
 strong{
   color: gold;
@@ -1298,6 +1298,7 @@ h3.line1{
  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
 }
 p.line2{
+  width: 138%;
   color: red !important;
   font-size: 22px;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black !important;

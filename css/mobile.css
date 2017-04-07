@@ -793,11 +793,13 @@
     border: 4px groove red;
     border-radius: 8px;
     margin: 2%;
+    width: 94%;
   }
   iframe:hover{
     box-shadow: 9px 9px 12px 6px black;
     border: 2px solid black;
     border-radius: 8px;
+    width: 94%;
   }
   #worlmap{
     display:none;
@@ -1166,12 +1168,12 @@
   }
   h3.line1{
     color: red !important;
-    font-size: 18px;
+    font-size: 29px !important;
     text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
   }
   p.line2{
     color: red !important;
-    font-size: 11px;
+    font-size: 14.8px;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black !important;
   }
   .carousel-inner>.item>img {
@@ -1196,7 +1198,7 @@
      width: 12px;
      height: 12px;
      margin: 0;
-     background-color: #4CB8C4 !important;
+     background-color: red !important;
    }
     .carousel-caption {
     right: 20%;
@@ -1215,7 +1217,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    border: 4px groove #25b7c4 !important;
+    border: 3.2px groove red !important;
     }
    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
 
