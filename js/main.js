@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
 
+
+			$("h4").fadeIn(1000);
 			$("section > label:even").css("border-bottom", "3px groove red");
 			$("section > label:odd").css("opacity", ".7");
 
