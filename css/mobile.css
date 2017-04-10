@@ -272,7 +272,7 @@
     background: linear-gradient(to top, black, red) !important;
     margin-left: 28%;
     margin-right: 28%;
-    margin-top: 12.6%;
+    margin-top: 12.8%;
     overflow: hidden;
   }
   .glyphicon {
@@ -553,8 +553,8 @@
   }
 
   div#news{
-    width: 88%;
-    margin-left: 1.8%;
+    width: 89%;
+    margin-left: 1%;
     border: 4px groove red;
     height: auto;
     border-radius: 9px;
@@ -566,7 +566,7 @@
     overflow: hidden;
   }
   div#videos{
-    width: 88%;
+    width: 89%;
     margin-left: 1.8%;
     border: 4px groove red;
     height: auto;
@@ -578,7 +578,7 @@
     overflow: hidden;
   }
   div#podcast{
-    width: 88%;
+    width: 89%;
     margin-left: 1.8%;
     border: 4px groove red;
     border-radius: 9px;
@@ -590,7 +590,7 @@
     overflow: hidden;
   }
   div#events{
-    width: 88%;
+    width: 89%;
       margin-left: 1.8%;
     border: 4px groove red;
     height: auto;
@@ -602,7 +602,7 @@
     overflow: hidden;
   }
   div#chatroom{
-    width: 88%;
+    width: 89%;
     height: 100% !important;
     margin-left: 7px;
     border: 4px groove red;
@@ -646,6 +646,9 @@
     margin-top: -4%;
     font-family: 'Fjalla One', sans-serif;
     text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+  }
+  div.article{
+    margin: 4%;
   }
   p#name{
     font-size: 20px;
@@ -786,13 +789,13 @@
   }
   strong{
     color: gold;
-    font-size: 22px;
+    font-size: 18px !important;
     text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
   }
   p{
     font-family: 'Fjalla One', sans-serif;
     color: white;
-    font-size: 18.5px;
+    font-size: 16px;
     font-style: oblique;
 
   }
@@ -825,10 +828,15 @@
   iframe{
     border: 4px groove red;
     border-radius: 8px;
-    margin: 2%;
     width: 94%;
   }
   iframe:hover{
+    box-shadow: 9px 9px 12px 6px black;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 94%;
+  }
+  iframe:active{
     box-shadow: 9px 9px 12px 6px black;
     border: 2px solid black;
     border-radius: 8px;
@@ -1304,7 +1312,8 @@
 
     }
     .topspace{
-      margin:100px auto;max-width:805px;
+      margin:100px 
+      auto;max-width:805px;
     }
 
 

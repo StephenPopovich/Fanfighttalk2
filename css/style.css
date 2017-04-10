@@ -368,7 +368,7 @@ input[type=text]:active{
 }
 
 img.article{
-  height: 405px !important;
+  height: 415px !important;
 }
 img.tabicon{
   padding-top: 19%;
@@ -939,7 +939,6 @@ h5, h4, h3, h8, ul{
 iframe{
   border: 4px groove red;
   border-radius: 8px;
-  margin: 2%;
 }
 iframe:hover{
   box-shadow: 9px 9px 12px 6px black;
@@ -947,6 +946,11 @@ iframe:hover{
   border-radius: 8px;
 }
 
+iframe:active{
+  box-shadow: 9px 9px 12px 6px black;
+  border: 2px solid black;
+  border-radius: 8px;
+}
 
 video{
   border: 2px solid red;
@@ -1426,6 +1430,17 @@ p.line2{
   }
   img.article{
     height: 415px;
+  }
+  img.main{
+    height: 520px !important;
+  }
+  iframe.main{
+    height: 520px !important;
+    background: black;
+  }
+  video.main{
+    height: 350px !important;
+    background: black;
   }
 }
 @media (max-width: 992px) {
