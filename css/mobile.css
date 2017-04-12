@@ -5,7 +5,7 @@
   body{
     background-image: url("http://static1.squarespace.com/static/55b61839e4b04e39fb625165/t/55b692e9e4b0b4cd5d2f9c47/1438028524658/background.jpg?format=2500w");
     background-size: cover;
-    opacity: 0.85;
+    opacity: 0.82;
     position: relative;
     border: none;
     width: 100%;
@@ -41,7 +41,6 @@
       -webkit-box-shadow: 3px 3px 9px 12px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
       -moz-box-shadow:    3px 3px 9px 12px black;  /* Firefox 3.5 - 3.6 */
       box-shadow:         3px 3px 9px 12px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-      /* background-color: green; */
   }
   .jumbotron:hover {
     font-weight: 200;
@@ -153,16 +152,7 @@
     box-shadow: none;
     margin-left: -10%;
   }
-  .navbar {
-    position: relative;
-    min-height: 35px !important;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-  }
-
-  .partial{
-    padding: 2px;
-  }
+  
   .img-circle {
     border-radius: 50%;
     margin-top: -8px;
@@ -194,6 +184,12 @@
     height: 60px;
     width: 60px;
     border: black;
+  }
+  .navbar {
+    position: relative;
+    min-height: 35px !important;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
   }
   .navbar-default {
       background: -webkit-linear-gradient(bottom, red, black) !important;
@@ -418,7 +414,6 @@
     font-family: 'Fjalla One', sans-serif;
 
   }
-
   .slider h6{
     color: #b71c1c;
       text-shadow:
@@ -479,6 +474,71 @@
     box-shadow:         3px 3px 5px 5px red;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     background-image: url("http://adanamasajsalonum.xyz/images/slider/299bd7f250e7dcd42c4b36d0d9554c83g.jpg");
     background-size:cover;
+  }
+
+  div#news{
+    width: 89%;
+    margin-left: 1%;
+    border: 4px groove red;
+    height: auto;
+    border-radius: 9px;
+    overflow: auto;
+    margin-bottom: 23%;
+    margin-top: -2.5%;
+    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
+    background-size: cover;
+    overflow: hidden;
+  }
+  div#videos{
+    width: 89%;
+    margin-left: 1.8%;
+    border: 4px groove red;
+    height: auto;
+    border-radius: 9px;
+    overflow: auto;
+    margin-bottom: 10%;
+    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
+    background-size: cover;
+    overflow: hidden;
+  }
+  div#podcast{
+    width: 89%;
+    margin-left: 1.8%;
+    border: 4px groove red;
+    border-radius: 9px;
+    height: auto;
+    overflow-y: auto;
+    margin-bottom: 23%;
+    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
+    background-size: cover;
+    overflow: hidden;
+  }
+  div#events{
+    width: 89%;
+      margin-left: 1.8%;
+    border: 4px groove red;
+    height: auto;
+    border-radius: 9px;
+    overflow: auto;
+    margin-bottom: 23%;
+    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
+    background-size: cover;
+    overflow: hidden;
+  }
+  div#chatroom{
+    width: 89%;
+    height: 100% !important;
+    margin-left: 7px;
+    border: 4px groove red;
+    border-radius: 2px;
+    height: 600px;
+    margin-bottom: 5%;
+    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  iframe#chatroom1{
+    display: none;
   }
 
   img#thumb{
@@ -551,71 +611,7 @@
     -moz-box-shadow:    4px 4px 7px 7px red;  /* Firefox 3.5 - 3.6 */
     box-shadow:         4px 4px 7px 7px red;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   }
-
-  div#news{
-    width: 89%;
-    margin-left: 1%;
-    border: 4px groove red;
-    height: auto;
-    border-radius: 9px;
-    overflow: auto;
-    margin-bottom: 23%;
-    margin-top: -2.5%;
-    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
-    background-size: cover;
-    overflow: hidden;
-  }
-  div#videos{
-    width: 89%;
-    margin-left: 1.8%;
-    border: 4px groove red;
-    height: auto;
-    border-radius: 9px;
-    overflow: auto;
-    margin-bottom: 10%;
-    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
-    background-size: cover;
-    overflow: hidden;
-  }
-  div#podcast{
-    width: 89%;
-    margin-left: 1.8%;
-    border: 4px groove red;
-    border-radius: 9px;
-    height: auto;
-    overflow-y: auto;
-    margin-bottom: 23%;
-    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
-    background-size: cover;
-    overflow: hidden;
-  }
-  div#events{
-    width: 89%;
-      margin-left: 1.8%;
-    border: 4px groove red;
-    height: auto;
-    border-radius: 9px;
-    overflow: auto;
-    margin-bottom: 23%;
-    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
-    background-size: cover;
-    overflow: hidden;
-  }
-  div#chatroom{
-    width: 89%;
-    height: 100% !important;
-    margin-left: 7px;
-    border: 4px groove red;
-    border-radius: 2px;
-    height: 600px;
-    margin-bottom: 5%;
-    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
-    background-size: cover;
-    overflow-x: hidden;
-  }
-  iframe#chatroom1{
-    display: none;
-  }
+  
   #divPowered{
   display: none !important;
   }
@@ -628,7 +624,6 @@
     background: black;
     border-radius: 6px;
     border: 2px groove red;
-
 
   }
   input#view{
@@ -1134,6 +1129,15 @@
   textarea .prefix {
     color: white;
   }
+   h1 {
+      font-weight: 300;
+      margin: 0;
+      font-size: 3.5em;
+
+  }
+  span{
+ 
+  }
 
   a:hover, a:focus {
       color: #b71c1c;
@@ -1261,7 +1265,7 @@
     color: red;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
     text-align: left;
-  }
+   }
    .carousel-caption{
      color: #25b7c4 !important;
      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -1271,18 +1275,18 @@
 
     }
     .carousel-control {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 15%;
-    font-size: 20px;
-    color: #25b7c4 !important;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
-    background-color: rgba(0,0,0,0);
-    filter: alpha(opacity=50);
-    opacity: .5;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 15%;
+      font-size: 20px;
+      color: #25b7c4 !important;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0,0,0,.6);
+      background-color: rgba(0,0,0,0);
+      filter: alpha(opacity=50);
+      opacity: .5;
     }
     .carousel-inner>.item>a>img, .carousel-inner>.item>img {
 
@@ -1291,30 +1295,7 @@
       color: red !important;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     }
-    sans-serif{
-      padding: 0.3em 2em;
-      font-size: 18px;
-      background: black !important;
-      color: red !important;
-   }
-    h1 {
-      font-weight: 300;
-      margin: 0;
-      font-size: 3.5em;
-
-    }
-    span{
    
-    }
-
-    .fw700 {
-      font-weight: 700;
-
-    }
-    .topspace{
-      margin:100px 
-      auto;max-width:805px;
-    }
 
 
 }
