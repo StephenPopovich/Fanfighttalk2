@@ -10,7 +10,7 @@ html{
 }
 
 body{
-  background-image: url("http://static1.squarespace.com/static/55b61839e4b04e39fb625165/t/55b692e9e4b0b4cd5d2f9c47/1438028524658/background.jpg?format=2500w");
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0e/e9/3d/0ee93dbc573be59dd71f813d5b6a681a.jpg");
   background-size: cover;
   opacity: 0.85;
   width: 100%;
@@ -24,11 +24,9 @@ body{
 }
 .carousel {
     position: relative;
-    margin-top: 5.35%;
 }
 .carousel:hover {
     position: relative;
-    margin-top: 5.35%;
 }
 a.carousel-control{
   display: none;
@@ -246,7 +244,6 @@ img.gificon:hover{
     width: 100%;
     opacity: .6;
     position: fixed;
-    top:0;
     margin-right: 4%;
     z-index: 1000;
 }
@@ -257,7 +254,6 @@ img.gificon:hover{
   width: 100%;
   opacity: .9;
   position: fixed;
-  top:0;
   margin-right: 4%;
   z-index: 1000;
 
@@ -368,7 +364,7 @@ input[type=text]:active{
 }
 
 img.article{
-  height: 415px !important;
+  height: 475px !important;
 }
 img.tabicon{
   padding-top: 19%;
@@ -627,6 +623,7 @@ h3#subtitle {
   text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
 }
 h4#articletitle{
+    height: 51px;
     margin-left: 2%;
     text-align: center;
     font-size: 24px;
@@ -1241,8 +1238,7 @@ a {
   text-decoration: none;
 }
 a:hover, a:focus {
-    color: #b71c1c;
-    text-decoration: underline;
+    color: white;
 }
 a:link {
   font-size: 19px;

@@ -77,6 +77,7 @@ $(document).ready(function(){
 			    $("article#content1111").css("display", "");
 			     
 			});
+			
 	 
   
   });
