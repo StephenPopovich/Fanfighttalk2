@@ -3,7 +3,7 @@
 
   }
   body{
-    background-image: url("http://static1.squarespace.com/static/55b61839e4b04e39fb625165/t/55b692e9e4b0b4cd5d2f9c47/1438028524658/background.jpg?format=2500w");
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0e/e9/3d/0ee93dbc573be59dd71f813d5b6a681a.jpg");
     background-size: cover;
     opacity: 0.82;
     position: relative;
@@ -185,6 +185,14 @@
     width: 60px;
     border: black;
   }
+  .affix {
+    top: 0;
+    width: 100%;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 40px;
+  }
   .navbar {
     position: relative;
     min-height: 35px !important;
@@ -198,7 +206,6 @@
       max-height: 48px;
       opacity: .65;
       position: fixed;
-      top:0;
       margin-right: 4%;
   }
   .navbar-default:hover {
@@ -208,7 +215,6 @@
       opacity: 1;
       max-height: 48px;
       position: fixed;
-      top:0;
       margin-right: 4%;
   }
   .navbar-brand {
@@ -1211,14 +1217,12 @@
 
   .carousel {
     position: relative;
-    margin-top: 9%;
     border-left-style: none;
     border-right-style: none;
   }
 
   .carousel:hover {
     position: relative;
-    margin-top: 9%;
   }
 
   h3.line1{
@@ -1235,7 +1239,7 @@
   .carousel-inner>.item>img {
     display: block;
     width: 100%;
-    height: 315px !important;
+    height: 345px !important;
   }
   .carousel-inner img {
      width: 100%; /* Set width to 100% */
