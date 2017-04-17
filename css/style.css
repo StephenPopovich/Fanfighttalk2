@@ -1316,6 +1316,7 @@ video:active {
 
 .carousel {
   position: relative;
+  border-top-style: none;
 }
 
 .carousel-inner {
@@ -1326,7 +1327,7 @@ video:active {
   border: 2px groove red;
   border-left: none;
   border-right: none;
-  border-top: none;
+
 }
 h3.line1{
  font-size: 45px !important;
