@@ -6,12 +6,12 @@ html{
 }
 body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-7/cur610.cur), progress !important;}
 
-::-moz-selection { 
-  background: red; 
+::-moz-selection {
+  background: red;
 
 }
-::selection { 
-  background: red; 
+::selection {
+  background: red;
 
 }
 ::-webkit-scrollbar {
@@ -50,7 +50,7 @@ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-7/cur610.cur), 
 }
 
 body{
-  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/0e/e9/3d/0ee93dbc573be59dd71f813d5b6a681a.jpg");
+  background-image: url("");
   background-size: cover;
   opacity: 0.85;
   width: 100%;
@@ -246,7 +246,7 @@ img.gificon:hover{
     border-radius: 80% !important;
     margin-top: -5%;
     border: black;
-    box-shadow: none; 
+    box-shadow: none;
 }
 .affix {
     top: 0;
@@ -336,14 +336,14 @@ img.gificon:hover{
 }
 section
 {
-    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
+    background-image: url();
     background-size: cover;
 }
 article#content2{
 
 }
 article#content3{
-  
+
 }
 input[type=text]{
   font-size: 2rem;
@@ -413,9 +413,9 @@ article {
   display: none;
 }
 
-article#content1, 
-article#content11, 
-article#content111, 
+article#content1,
+article#content11,
+article#content111,
 article#content1111 {
   display: block;
 }
