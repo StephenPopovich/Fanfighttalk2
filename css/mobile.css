@@ -152,7 +152,7 @@
     box-shadow: none;
     margin-left: -10%;
   }
-  
+
   .img-circle {
     border-radius: 50%;
     margin-top: -8px;
@@ -197,90 +197,6 @@
 
   .affix + .container-fluid {
     padding-top: 40px;
-  }
-  .navbar {
-    position: relative;
-    min-height: 35px !important;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-  }
-  .navbar-default {
-      background: -webkit-linear-gradient(bottom, red, black) !important;
-      background: linear-gradient(to top, black,  red) !important;
-      border-color: black;
-      max-height: 48px;
-      opacity: .65;
-      position: fixed;
-      margin-right: 4%;
-  }
-  .navbar-default:hover {
-      background: -webkit-linear-gradient(bottom, black, red) !important;
-      background: linear-gradient(to top, red, black) !important;
-      border-color: black;
-      opacity: 1;
-      max-height: 48px;
-      position: fixed;
-      margin-right: 4%;
-  }
-  .navbar-brand {
-      position: absolute;
-      width: 100px;
-      left: 50%;
-      right: 50%;
-      text-align: center;
-      margin: auto;
-  }
-  .navbar-default .navbar-nav>li>a {
-    color: white;
-    font-size: 16px;
-    text-align: center;
-  }
-  .navbar-default .navbar-nav>li>a:hover {
-      color: white;
-      text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
-      font-size: 18px;
-  }
-  .navbar-default .navbar-nav>li>a:focus {
-      color: white;
-      font-size: 18px;
-      text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
-  }
-  a.top{
-    margin-top: 3%;
-  }
-  .navbar-default .navbar-toggle {
-      border: 1px solid black;
-
-  }
-  .navbar-default .navbar-toggle .icon-bar {
-      background-color: black;
-  }
-  .navbar-default .navbar-toggle:hover {
-      border: 2px groove black;
-      color: red;
-      background: black;
-      background-color: red;
-  }
-  .navbar-default .navbar-toggle:focus {
-      border: 2px groove black;
-      color: red;
-      background-color: red;
-  }
-  .navbar-default .navbar-toggle .icon-bar:focus {
-      background-color: red;
-  }
-  .navbar-toggle {
-      z-index:3;
-  }
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    border: 1.2px groove black !important;
-    border-top-style:none !important;
-    background: -webkit-linear-gradient(bottom, red, black) !important;
-    background: linear-gradient(to top, black, red) !important;
-    margin-left: 28%;
-    margin-right: 28%;
-    margin-top: 12.8%;
-    overflow: hidden;
   }
   .glyphicon {
     position: relative;
@@ -496,7 +412,7 @@
     overflow: auto;
     margin-bottom: 23%;
     margin-top: -2.5%;
-    background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
+    background-image: url();
     background-size: cover;
     overflow: hidden;
   }
@@ -622,7 +538,7 @@
     -moz-box-shadow:    4px 4px 7px 7px red;  /* Firefox 3.5 - 3.6 */
     box-shadow:         4px 4px 7px 7px red;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   }
-  
+
   #divPowered{
   display: none !important;
   }
@@ -720,42 +636,6 @@
     width: 45%;
     height: 35%;
 
-  }
-
-  waves-effect waves-light btn
-  ol{
-   padding-left: initial;
-   }
-
-
-  .brand-logo img{
-    box-shadow: 0px 0px 0px 0px;
-    height: 70px;
-    width: 220px;
-  }
-
-  .brand-logo img:hover{
-    box-shadow: 0px 0px 0px 0px !important;
-    height: 70px;
-    width: 220px;
-  }
-
-
-  .brand-logo img:focus{
-    box-shadow: 0px 0px 0px 0px !important;
-    height: 70px;
-    width: 220px;
-  }
-  nav .brand-logo {
-    box-shadow: 0px 0px 0px 0px !important;
-    height: 70px;
-    width: 220px;
-  }
-  nav .brand-logo:hover {
-      box-shadow: 0px 0px 0px 0px !important;
-      height: 70px;
-      width: 220px;
-      background: none;
   }
 
   .brand-logo #minilogo{
@@ -1147,7 +1027,7 @@
 
   }
   span{
- 
+
   }
 
   a:hover, a:focus {
@@ -1305,7 +1185,7 @@
       color: red !important;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     }
-   
+
 
 
 }
