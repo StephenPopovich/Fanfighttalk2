@@ -1,6 +1,7 @@
 *{
 
 }
+
 /* Shadow */
 .hvr-shadow {
   display: inline-block;
@@ -237,6 +238,7 @@ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-7/cur610.cur), 
 }
 
 a.nav-link{
+  text-align: center;
  width: 8.3em !important;
  border: 2px solid darkred;
  font-size: 1.23em !important;
@@ -255,8 +257,8 @@ a.nav-link:hover{
  font-size: 1.23em !important;
  color: white;
  text-shadow:
-   -2px -2px 0 #000,
-   2px -2px 0 #000,
+   -4px -4px 0 #000,
+   2px -4px 0 #000,
    -2px 2px 0 #000,
    2px 2px 0 #000;
 }
@@ -1464,8 +1466,9 @@ video:active {
 }
 
 .carousel {
+  border: 2px groove darkred;
   position: relative;
-  border-top-style: none;
+
 }
 
 .carousel-inner {
@@ -1473,7 +1476,7 @@ video:active {
   width: 100%;
   overflow: hidden;
   height: 700px;
-  border: 2px groove red;
+
   border-left: none;
   border-right: none;
 
