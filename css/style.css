@@ -43,6 +43,72 @@
     color: #fff;
     top: 5px;
 }
+.close {
+    float: right;
+    font-size: 1.92em !important;
+    font-weight: 700;
+    line-height: 1;
+    color: rgba(81, 203, 238, .81) !important;
+    text-shadow: 3px 1px 3px rgba(81, 203, 238);
+    opacity: .5;
+}
+.close:hover {
+    float: right;
+    font-size: 2.15em !important;
+    font-weight: 700;
+    line-height: 1;
+    color: rgba(81, 203, 238, 1) !important;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+.modal-sm {
+    max-width: 500px;
+}
+
+iframe#chatroom-modal{
+    border: 3.75px groove darkred;
+    border-radius: 8px;
+    width: 108%;
+
+}
+
+.chatroom{
+  left: 20px;
+position: fixed;
+z-index: 1;
+border: none;
+width: 60px;
+height: 60px;
+bottom: 15px;
+right: 20px;
+-webkit-border-radius: 35px;
+-moz-border-radius: 35px;
+border-radius: 35px;
+ background: transparent;
+}
+.chatroom-icon{
+      left: 20px;
+    position: fixed;
+    z-index: 1;
+    border: none;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    right: 20px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+      background: rgba(0, 0, 0, 0.7);
+}
+.modal-content {
+    position: relative;
+    background: url(http://epicwallpaperz.com/wallpaper-hd/dark-blue-wallpapers-images-On-wallpaper-hd.jpg) center center fixed !important;
+    display: -ms-flexbox;
+    box-shadow: 3px 2px 2px 6px #b71c1c;
+  }
+  .modal-footer {
+       padding: 0 !important;
+}
 /* Bob */
 @-webkit-keyframes hvr-bob {
   0% {
@@ -504,6 +570,10 @@ a.nav-link:hover{
    -2px 2px 0 #000,
    2px 2px 0 #000;
 }
+.contact-link{
+  color: rgba(81, 203, 238, 1) !important;
+  font-size: .76;
+}
 .navbar-expand-lg{
    border: 2px groove red;
    padding: 0px !important;
@@ -529,7 +599,8 @@ z-index: 1;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOgAYUHOh-eL2-T0lngHF5s6AihE4nrlytH4S2OW79gjsi9OQt) !important;
      border: 2px groove red;
      padding: 0px !important;
-     box-shadow: 4px 2px 2px #000;
+     box-shadow: 8px 4px 4px #000;
+     opacity: .75;
 
 }
 a.dropdown-menu{
@@ -701,11 +772,12 @@ button.btn.btn-link:hover{
 
 }
 div.card-body{
- background: url(http://epicwallpaperz.com/wallpaper-hd/dark-blue-wallpapers-images-On-wallpaper-hd.jpg) center center fixed !important;
+
+     background: linear-gradient(to top, #354451, #26323e) !important;
 
 }
 div.card-body:hover{
- background: url(http://epicwallpaperz.com/wallpaper-hd/dark-blue-wallpapers-images-On-wallpaper-hd.jpg) center center fixed !important;
+  background: linear-gradient(to top, #354451, #26323e) !important;
 
 }
 a.iprodev:hover {
@@ -1301,7 +1373,7 @@ u#footersite{
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 li{
-  font-size: 23px;
+
 }
 a{
   color: white;
@@ -1325,9 +1397,7 @@ img{
 }
 img:hover{
   border-radius: 5px;
-  -moz-box-shadow: 5px 5px 0px red;
-  -webkit-box-shadow: 5px 5px 0px red;
-  box-shadow: 5px 5px 0px red;
+
 }
 strong{
   color: gold;

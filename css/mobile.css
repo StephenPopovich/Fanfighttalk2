@@ -55,12 +55,12 @@
   #return-to-top {
         z-index: 1;
       position: fixed;
-      bottom: 20px;
+      bottom: 25px;
       right: 20px;
       background: rgb(0, 0, 0);
       background: rgba(0, 0, 0, 0.7);
-      width: 50px;
-      height: 50px;
+      width: 35px;
+      height: 35px;
       display: block;
       text-decoration: none;
       -webkit-border-radius: 35px;
@@ -94,6 +94,38 @@
       color: #fff;
       top: 5px;
   }
+  .modal-sm{
+    max-width: none !important;
+    width: 400px;
+  }
+
+  iframe#chatroom-modal{
+      border: 3.75px groove darkred;
+      border-radius: 8px;
+      width: 108%;
+
+  }
+
+  .chatroom{
+
+  }
+  .chatroom-icon{
+       left: 20px;
+        position: fixed;
+        z-index: 1;
+        border: none;
+        width: 35px;
+        height: 35px;
+        bottom: 25px;
+        right: 20px;
+        background: transparent;
+  }
+  .modal-content {
+      position: relative;
+      background: url(http://epicwallpaperz.com/wallpaper-hd/dark-blue-wallpapers-images-On-wallpaper-hd.jpg) center center fixed !important;
+      display: -ms-flexbox;
+      box-shadow: 3px 2px 2px 6px #b71c1c;
+    }
   #nav-logo{
     height: 40px;
     width: 40px;
@@ -109,7 +141,7 @@
   }
   .navbar-dark .navbar-toggler {
     color: transparent !important;
-    border-color: none !important;
+    border-color: transparent !important;
    }
    .navbar-toggler-icon{
      box-shadow: 0 0 5px rgba(81, 203, 238, 1);
@@ -118,6 +150,16 @@
      border: 1px solid rgba(81, 203, 238, 1);
      border-radius: 3px;
    }
+   .navbar-toggler-icon:hover,     .navbar-toggler-icon:focus{
+     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+     padding: 3px 0px 3px 3px;
+     margin: 5px 1px 3px 0px;
+     border: 1px solid rgba(81, 203, 238, 1);
+     border-radius: 3px;
+    background-color: rgba(81, 203, 238, .61);
+   }
+
+
 
   a.nav-link{
     text-align: center;
@@ -286,13 +328,13 @@
     border: none;
   }
   img.gificon{
-    height: 180px;
-    width: 180px;
+    height: 110px;
+    width: 120px;
     border: none;
   }
   img.gificon:hover{
-    height: 180px;
-    width: 180px;
+    height: 110px;
+    width: 120px;
     border: none;
     box-shadow: none;
   }
@@ -341,7 +383,7 @@
 
   }
   .card-body{
-   background: url(http://epicwallpaperz.com/wallpaper-hd/dark-blue-wallpapers-images-On-wallpaper-hd.jpg) center center fixed;
+
   padding: 0px !important;
   }
   a.iprodev:hover {
@@ -554,6 +596,12 @@
   opacity: .75;
 
   }
+  ul#footer_imgs{
+    list-style: none;
+  }
+  a.grey-text.text-lighten-3{
+    color: white;
+  }
 
   #founded{
     color: black;
@@ -630,6 +678,7 @@
   }
   h4#articletitle{
     height: auto;
+        margin-top: 4%;
   text-align: center;
   font-size: 1.65em;
       margin-left: 0%;
@@ -697,10 +746,11 @@ border: 3.75px groove #2d3846;
     opacity: .85;
   }
   .fight-video{
+        margin-top: 2%;
     margin-left: auto;
-    margin-right: auto;
-    display: table;
-    height: 500px;
+  margin-right: auto;
+  display: table;
+  height: auto;
   }
 
   div.article{
@@ -955,9 +1005,6 @@ border: 3.75px groove #2d3846;
   }
   img:hover{
     border-radius: 5px;
-    -moz-box-shadow: 5px 5px 0px red;
-    -webkit-box-shadow: 5px 5px 0px red;
-    box-shadow: 5px 5px 0px red;
   }
   strong{
     color: gold;
@@ -1056,16 +1103,18 @@ border: 3.75px groove #2d3846;
     box-shadow: none;
   }
   #banner{
-    width: 100%;
-    height: 175px;
-    padding-left: 26%;
-    padding-right: 26%;
-    background-image: url("http://bjjsurrey.com/bjj/wp-content/uploads/2012/11/cage-background21.jpg");
-    box-shadow: 3px 3px 3px 8px #b71c1c;
-    background-size:  cover;
+    width: inherit;
+    height: 62px;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-image: url(http://bjjsurrey.com/bjj/wp-content/uploads/2012/11/cage-background21.jpg);
+    box-shadow: none !important;
+    background-size: cover;
     opacity: 0.8;
     position: relative;
     border: none;
+        margin-top: 8%;
+
   }
 
   #ranking li{
@@ -1596,12 +1645,12 @@ border: 3.75px groove #2d3846;
   #return-to-top {
         z-index: 1;
       position: fixed;
-      bottom: 20px;
+      bottom: 25px;
       right: 20px;
       background: rgb(0, 0, 0);
       background: rgba(0, 0, 0, 0.7);
-      width: 50px;
-      height: 50px;
+      width: 35px;
+      height: 35px;
       display: block;
       text-decoration: none;
       -webkit-border-radius: 35px;
@@ -1641,6 +1690,39 @@ border: 3.75px groove #2d3846;
     border: none;
     margin-left: 1em;
   }
+  .modal-sm{
+    max-width: none !important;
+    width: 400px;
+  }
+
+  iframe#chatroom-modal{
+      border: 3.75px groove darkred;
+      border-radius: 8px;
+      width: 108%;
+
+  }
+
+  .chatroom{
+
+  }
+  .chatroom-icon{
+       left: 20px;
+        position: fixed;
+        z-index: 1;
+        border: none;
+        width: 35px;
+        height: 35px;
+        bottom: 25px;
+        right: 20px;
+        background: transparent;
+  }
+  .modal-content {
+      position: relative;
+      background: url(http://epicwallpaperz.com/wallpaper-hd/dark-blue-wallpapers-images-On-wallpaper-hd.jpg) center center fixed !important;
+      display: -ms-flexbox;
+      box-shadow: 3px 2px 2px 6px #b71c1c;
+          margin-top: 8%;
+    }
   #nav-logo:hover{
     height: 46px;
     width: 46px;
@@ -1816,13 +1898,13 @@ border: 3.75px groove #2d3846;
     border: none;
   }
   img.gificon{
-    height: 180px;
-    width: 180px;
+    height: 110px;
+    width: 120px;
     border: none;
   }
   img.gificon:hover{
-    height: 180px;
-    width: 180px;
+    height: 110px;
+    width: 120px;
     border: none;
     box-shadow: none;
   }
@@ -1871,7 +1953,7 @@ border: 3.75px groove #2d3846;
 
   }
   .card-body{
-   background: url(http://epicwallpaperz.com/wallpaper-hd/dark-blue-wallpapers-images-On-wallpaper-hd.jpg) center center fixed;
+
   padding: 0px !important;
   }
   a.iprodev:hover {
@@ -2084,7 +2166,12 @@ border: 3.75px groove #2d3846;
   opacity: .75;
 
   }
-
+  ul#footer_imgs{
+    list-style: none;
+  }
+ a.grey-text.text-lighten-3{
+   color: white;
+ }
   #founded{
     color: black;
     font-size: smaller;
@@ -2160,6 +2247,7 @@ border: 3.75px groove #2d3846;
   }
   h4#articletitle{
     height: auto;
+    margin-top: 4%;
   margin-left: 0px;
   font-size: 1.65em;
       text-align: center;
@@ -2226,10 +2314,13 @@ border: 3.75px groove #2d3846;
     opacity: .85;
   }
   .fight-video{
+    margin-top: 2%;
+
+
     margin-left: auto;
     margin-right: auto;
     display: table;
-    height: 500px;
+    height: auto;
   }
 
   div.article{
@@ -2484,9 +2575,7 @@ border: 3.75px groove #2d3846;
   }
   img:hover{
     border-radius: 5px;
-    -moz-box-shadow: 5px 5px 0px red;
-    -webkit-box-shadow: 5px 5px 0px red;
-    box-shadow: 5px 5px 0px red;
+
   }
   strong{
     color: gold;
@@ -2585,16 +2674,17 @@ border: 3.75px groove #2d3846;
     box-shadow: none;
   }
   #banner{
-    width: 100%;
-    height: 175px;
-    padding-left: 26%;
-    padding-right: 26%;
-    background-image: url("http://bjjsurrey.com/bjj/wp-content/uploads/2012/11/cage-background21.jpg");
-    box-shadow: 3px 3px 3px 8px #b71c1c;
-    background-size:  cover;
-    opacity: 0.8;
-    position: relative;
-    border: none;
+    width: inherit;
+  height: 62px;
+  padding-left: 0%;
+  padding-right: 0%;
+  background-image: url(http://bjjsurrey.com/bjj/wp-content/uploads/2012/11/cage-background21.jpg);
+      box-shadow: none !important;
+  background-size: cover;
+  opacity: 0.8;
+  position: relative;
+  border: none;
+
   }
 
   #ranking li{
