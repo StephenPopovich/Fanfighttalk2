@@ -761,18 +761,6 @@ h4#articletitle{
   1px 1px 0 #000;
 
 }
-div#article{
-  font-size: 21px;
-
-  margin: 5%;
-  border-radius: 4px;
-  background: black;
-  -webkit-box-shadow: 3px 3px 5px 5px red;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 5px red;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 5px red;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  background-image: url("http://adanamasajsalonum.xyz/images/slider/299bd7f250e7dcd42c4b36d0d9554c83g.jpg");
-  background-size:cover;
-}
 img#thumb{
   display: none;
 }
@@ -800,6 +788,33 @@ iframe.news-video{
  margin-right: auto;
  display: table;
 }
+img.events-image{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  height: 500px;
+}
+div.event-info{
+  margin: 4px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 6px;
+  padding: 1em;
+  width: 95%;
+  margin-top: 2%;
+margin-bottom: 2%;
+  border: 2px groove lightgrey;
+  width: 100%;
+  text-align: center;
+  box-shadow: 3px 8px 6px 8px #000;
+  opacity: .85;
+}
+.fight-video{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  height: 500px;
+}
+
 div.article{
   margin: 4px;
   background-color: rgba(0, 0, 0, 0.65);
@@ -1094,27 +1109,6 @@ h5, h4, h3, h8, ul{
   color: white;
 }
 
-iframe{
-  border: 4px groove red;
-  border-radius: 8px;
-}
-iframe:hover{
-  box-shadow: 9px 9px 12px 6px black;
-  border: 2px solid black;
-  border-radius: 8px;
-}
-
-iframe:active{
-  box-shadow: 9px 9px 12px 6px black;
-  border: 2px solid black;
-  border-radius: 8px;
-}
-
-video{
-  border: 2px solid red;
-  border-radius: 8px;
-  height: 100%;
-}
 
 span{
   color: white;
@@ -1451,19 +1445,6 @@ a:selection{
 
 }
 
-/* mouse over image */
-video:hover {
-  box-shadow: 9px 9px 12px 6px white;
-  width: 100%;
-  height: 100%;
-}
-
-/* selected image */
-video:active {
-    color: black;
-    width: 100%;
-    height: 100%;
-}
 
 .carousel {
   border: 2px groove darkred;
