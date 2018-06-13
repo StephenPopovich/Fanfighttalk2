@@ -22,7 +22,7 @@
       display: none;
       font-size: 12px;
       color: white;
-      text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
    .jumbotron {
      font-weight: 200;
@@ -65,7 +65,7 @@
     font-size: 18px;
     font-family: 'Allerta Stencil', sans-serif;
     color: white;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
   h3#visittext{
    font-size: 18px;
@@ -381,18 +381,18 @@
   h3#subtitle {
     font-size: 35px;
     text-align: center;
-    text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+
   }
   h4#articletitle{
       margin-left: 2%;
       text-align: center;
       border-radius: 4px;
       font-size: 24px;
-      text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+
   }
   div#article{
     font-size: 21px;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
     margin: 5%;
     border-radius: 4px;
     background: black;
@@ -567,7 +567,7 @@
     margin-left: 2%;
     margin-top: -4%;
     font-family: 'Fjalla One', sans-serif;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
   div.article{
     margin: 4%;
@@ -580,7 +580,7 @@
     margin-left: 3%;
     font-size: 26px;
     font-family: 'Allerta Stencil', sans-serif;
-    text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+
   }
   div#comments{
     background: url(http://www.client2central.com/wms/blog-socio-mma/img/background.jpg) no-repeat center center;
@@ -654,12 +654,12 @@
   a:hover{
     color: white;
     font-style: oblique;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
   a:active{
     color: black;
     font-style: oblique;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
 
   img{
@@ -676,7 +676,7 @@
   strong{
     color: gold;
     font-size: 18px !important;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
   p{
     font-family: 'Fjalla One', sans-serif;
@@ -693,13 +693,13 @@
   h6{
     color: white;
     font-size: 20px;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
   h7{
     font-family: 'Fjalla One', sans-serif;
     color: white;
     font-size: 17px;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
   h1{
     color: white;
@@ -742,7 +742,7 @@
     font-size: 17px;
     color: white;
     outline: red;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
 
   .quote{

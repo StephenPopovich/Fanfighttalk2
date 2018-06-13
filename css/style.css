@@ -4,6 +4,9 @@
 html{
   overflow-x: hidden;
 }
+body{
+  color: white !important;
+}
 body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-7/cur610.cur), progress !important;}
 
 ::-moz-selection {
@@ -48,6 +51,33 @@ body, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-7/cur610.cur), 
   color: black !important;
   background: black !important;
 }
+
+a.nav-link{
+ width: 8.3em !important;
+ color: white;
+ text-shadow:
+   -2px -2px 0 #000,
+   2px -2px 0 #000,
+   -2px 2px 0 #000,
+   2px 2px 0 #000;
+}
+a.nav-link{
+ width: 8.3em !important;
+ color: white;
+ text-shadow:
+   -2px -2px 0 #000,
+   2px -2px 0 #000,
+   -2px 2px 0 #000,
+   2px 2px 0 #000;
+}
+.navbar-expand-lg{
+   background: linear-gradient(black, grey) !important;
+   border: 2px groove red;
+}
+.navbar-expand-lg:hover{
+   background: linear-gradient(grey, black ) !important;
+   border: 2px groove red;
+}
 nav .navbar .navbar-default{
 
 }
@@ -82,7 +112,7 @@ h4#by{
   font-size: 25px;
   font-family: 'Allerta Stencil', sans-serif;
   color: white;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
 }
 h3#visittext{
   font-size: 23.6px;
@@ -170,6 +200,47 @@ img.gificon:hover{
   box-shadow: none;
 }
 
+a.iprodev {
+  line-height: normal;
+  font-family: Varela Round, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 13px;
+  color: #A7AAAE;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  border: 1px solid #A7AAAE;
+  padding: 12px 20px 10px;
+  border-radius: 50px;
+  transition: all .1s ease-in-out;
+  text-transform: uppercase;
+}
+div.card-header{
+    background: url(https://awllpaper.com/wp-content/uploads/2018/04/wallpaper-website-373691.jpg) no-repeat !important;
+    background-size: cover;
+}
+.mb-0{
+  text-align: center;
+}
+button.btn.btn-link{
+  color: white;
+  font-size: 3.2em;
+  text-align: center;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+div.card-body{
+  background: url(http://epicwallpaperz.com/wallpaper-hd/dark-blue-wallpapers-images-On-wallpaper-hd.jpg) no-repeat !important;
+  background-size: cover;
+}
+a.iprodev:hover {
+  background: #A7AAAE;
+  color: white;
+}
 .partial{
   padding: 2px;
 }
@@ -184,17 +255,6 @@ img.gificon:hover{
     margin-top: -5%;
     border: black;
     box-shadow: none;
-}
-.
-section
-{
-    background-image: url();
-    background-size: cover;
-}
-article#content2{
-
-}
-article#content3{
 
 }
 input[type=text]{
@@ -232,9 +292,6 @@ input[type=text]:active{
   width: 100%;
 }
 
-img.article{
-  height: 495px !important;
-}
 img.tabicon{
   padding-top: 19%;
   height: 75px;
@@ -243,33 +300,8 @@ img.tabicon{
   position: relative;
 
 }
-img.tabicon:hover{
-  padding-top: 19%;
-  height: 85px;
-  width: 100px;
-  border: none;
-  box-shadow: none !important;
-  position: relative;
-}
 
-#accordion-tab {
-  margin: 0 auto;
-  padding: 10px;
-  width: 105%;
-  margin-top: -3%;
 
-}
-
-article {
-  display: none;
-}
-
-article#content1,
-article#content11,
-article#content111,
-article#content1111 {
-  display: block;
-}
 input {
   display: none;
   position: relative;
@@ -455,7 +487,7 @@ footer.page-footer{
   width: initial !important;
   margin-left: 2%;
   font-family: 'Fjalla One', sans-serif;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
 }
 .messages{
   background-image: url("http://coolblackppt.com/wp-content/uploads/cool-red-and-black-backgrounds-20150318210957-5509e9a598331.jpg");
@@ -488,18 +520,25 @@ footer.page-footer{
 h3#subtitle {
   font-size: 35px;
   text-align: center;
-  text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+
 }
 h4#articletitle{
     height: 51px;
     margin-left: 2%;
     text-align: center;
-    font-size: 24px;
-    text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+    font-size: 2.75em;
+    font-weight: 800;
+    color: white;
+    text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+
 }
 div#article{
   font-size: 21px;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   margin: 5%;
   border-radius: 4px;
   background: black;
@@ -525,9 +564,28 @@ img#thumb1:hover{
 img#news{
   height: 315px;
 }
+iframe.news-video{
+ margin-left: auto;
+ margin-right: auto;
+ display: table;
+}
 div.article{
   margin: 4px;
-  border: groove 2px red;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 6px;
+  padding: 1em;
+  width: 95%;
+  margin-top: 2%;
+  border: 2px groove lightgrey;
+}
+div.article:hover{
+  margin: 4px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 6px;
+  padding: 1em;
+  width: 95%;
+  margin-top: 2%;
+  border: 2px groove lightgrey;
 }
 div#news{
   width: 98%;
@@ -538,7 +596,7 @@ div#news{
   overflow: scroll;
   margin-bottom: 5%;
   margin-top: -3.5%;
-  background-image: url(http://www.nickborelli.com/wp-content/uploads/2015/01/grey-gradient-abstract-hd-wallpaper-1920x1200-4431.jpg);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/0e/e9/3d/0ee93dbc573be59dd71f813d5b6a681a.jpg);
   background-size: cover;
   overflow: hidden;
 
@@ -551,7 +609,7 @@ div#videos{
   height: auto;
   overflow: scroll;
   margin-bottom: 3%;
-  background-image: url(http://www.nickborelli.com/wp-content/uploads/2015/01/grey-gradient-abstract-hd-wallpaper-1920x1200-4431.jpg);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/0e/e9/3d/0ee93dbc573be59dd71f813d5b6a681a.jpg);
   background-size: cover;
   overflow: hidden;
 
@@ -564,7 +622,7 @@ div#podcast{
   height: auto;
   overflow: scroll;
   margin-bottom: 5%;
-  background-image: url(http://www.nickborelli.com/wp-content/uploads/2015/01/grey-gradient-abstract-hd-wallpaper-1920x1200-4431.jpg);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/0e/e9/3d/0ee93dbc573be59dd71f813d5b6a681a.jpg);
   background-size: cover;
   overflow: hidden;
 
@@ -577,7 +635,7 @@ div#events{
   height: auto;
   overflow: scroll;
   margin-bottom: 5%;
-  background-image: url(http://www.nickborelli.com/wp-content/uploads/2015/01/grey-gradient-abstract-hd-wallpaper-1920x1200-4431.jpg);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/0e/e9/3d/0ee93dbc573be59dd71f813d5b6a681a.jpg);
   background-size: cover;
   overflow: hidden;
 
@@ -636,7 +694,7 @@ p#thecomment{
   margin-left: 3%;
   font-size: 26px;
   font-family: 'Allerta Stencil', sans-serif;
-  text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+
 }
 div#comments{
   background: url(http://www.client2central.com/wms/blog-socio-mma/img/background.jpg) no-repeat center center;
@@ -744,17 +802,17 @@ li{
 a{
   color: white;
   font-style: oblique;
-  text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+
 }
 a:hover{
   color: white;
   font-style: oblique;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
 }
 a:active{
   color: black;
   font-style: oblique;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
 }
 
 img{
@@ -770,7 +828,7 @@ img:hover{
 strong{
   color: gold;
   font-size: 22px;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
 }
 p{
   font-family: 'Fjalla One', sans-serif;
@@ -787,13 +845,13 @@ h2, h10, h5, h6{
 h6{
   color: white;
   font-size: 20px;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
 }
 h7{
   font-family: 'Fjalla One', sans-serif;
   color: white;
   font-size: 17px;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
 }
 h1{
   color: white;
@@ -830,7 +888,7 @@ video{
 span{
   color: white;
   outline: red;
-  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
 }
 
 .quote{
@@ -891,7 +949,7 @@ img#welcome:hover{
 }
 #banner{
   width: 100%;
-  height: 48px;
+  height: 175px;
   padding-left: 26%;
   padding-right: 26%;
   background-image: url("http://bjjsurrey.com/bjj/wp-content/uploads/2012/11/cage-background21.jpg");
@@ -919,8 +977,8 @@ h5#socialtitle{
 }
 
 #social_media img{
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   margin-top: 10%;
   margin-right: 2%;
   border-radius: 14px;
@@ -930,15 +988,15 @@ h5#socialtitle{
 
 
 #social_media img:hover{
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   margin-left: 2%;
   border-radius: 15px;
   box-shadow: 3px 3px 8px 2px white;
 }
 #social_media img:focus{
-  width: 120px;
-  height: 120px;
+  width: 89px;
+  height: 80px;
   margin-left: 2%;
   border-radius: 15px;
   box-shadow: 3px 3px 8px 2px white;
@@ -1185,12 +1243,36 @@ video:active {
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 400px;
+  height: 700px;
   border: 2px groove red;
   border-left: none;
   border-right: none;
 
 }
+.carousel-indicators .active {
+   background: linear-gradient(#8A0707, black) !important;
+   border-radius: 20px;
+}
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+       border-radius: 20px;
+    width: 30px;
+    height: 12px !Important;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+ background: linear-gradient(#8A0707, black) !important;
+}
+span.carousel-control-prev-icon{
+
+}
+span.carousel-control-next-icon{
+
+}
+
 h3.line1{
  font-size: 45px !important;
  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black !important;
@@ -1205,7 +1287,7 @@ p.line2{
 .carousel-inner img {
    width: 100%; /* Set width to 100% */
    margin: auto;
-   height: 400px !important;
+   height: 100%;
  }
  .carousel-indicators .active {
    width: 12px;
@@ -1266,7 +1348,7 @@ p.line2{
   span.sr-only {
     color: red;
     outline: red;
-    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+
   }
   p#slidetext{
     color: red !important;
