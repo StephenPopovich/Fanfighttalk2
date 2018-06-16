@@ -59,8 +59,8 @@
       right: 20px;
       background: rgb(0, 0, 0);
       background: rgba(0, 0, 0, 0.7);
-      width: 35px;
-      height: 35px;
+      width: 40px;
+      height:40px;
       display: block;
       text-decoration: none;
       -webkit-border-radius: 35px;
@@ -107,18 +107,46 @@
   }
 
   .chatroom{
-
+    left: 20px;
+  position: fixed;
+  z-index: 1;
+  border: none;
+  width: 40px;
+  height: 40px;
+  bottom: 15px;
+  right: 20px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+   background: transparent;
   }
   .chatroom-icon{
-       left: 20px;
-        position: fixed;
-        z-index: 1;
-        border: none;
-        width: 35px;
-        height: 35px;
-        bottom: 25px;
-        right: 20px;
-        background: transparent;
+        left: 20px;
+      position: fixed;
+      z-index: 1;
+      border: none;
+      width: 40px;
+      height: 40px;
+      bottom: 15px;
+      right: 20px;
+      -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+      border-radius: 35px;
+        background: rgba(0, 0, 0, 0.7);
+  }
+  .chatroom-icon:hover{
+        left: 20px;
+      position: fixed;
+      z-index: 1;
+      border: none;
+      width: 40px;
+      height: 40px;
+      bottom: 15px;
+      right: 20px;
+      -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+      border-radius: 35px;
+        background: rgba(0, 0, 0, 1);
   }
   .modal-content {
       position: relative;
@@ -126,6 +154,40 @@
       display: -ms-flexbox;
       box-shadow: 3px 2px 2px 6px #b71c1c;
     }
+    button#full-screen{
+      background: -webkit-gradient(linear,left top,left bottom,from(#e81224),to(#c12026));
+      background: (linear,left top,left bottom,from(#e81224),to(#c12026));
+      color: white;
+        font-size: .75em;
+        font-weight: 700;
+    }
+    button#full-screen:hover{
+      background: -webkit-gradient(linear,left top,left bottom,from(#c12026),to(#e81224));
+      background: (linear,left top,left bottom,from(#c12026),to(#e81224));
+      color: white;
+        font-size: .75em;
+        font-weight: 700;
+    }
+
+    button#portable{
+      background: -webkit-gradient(linear,left top,left bottom,from(#e81224),to(#c12026));
+      background: (linear,left top,left bottom,from(#e81224),to(#c12026));
+      color: white;
+        font-size: .75em;
+        font-weight: 700;
+        margin-left: 1.5%;
+                border-color: transparent !important;
+    }
+    button#portable:hover{
+      background: -webkit-gradient(linear,left top,left bottom,from(#c12026),to(#e81224));
+      background: (linear,left top,left bottom,from(#c12026),to(#e81224));
+      color: white;
+        font-size: .75em;
+        font-weight: 700;
+          margin-left: 1.5%;
+                  border-color: transparent !important;
+    }
+
   #nav-logo{
     height: 40px;
     width: 40px;
@@ -164,7 +226,7 @@
   a.nav-link{
     text-align: center;
    width: 100% !important;
-   border: 2px solid darkred;
+   border-right: 2px solid darkred;
    font-size: 1.23em !important;
    color: white !important;
    text-shadow:
@@ -176,7 +238,7 @@
   a.nav-link:hover{
     background: -webkit-linear-gradient(bottom, black, red) !important;
     background: linear-gradient(to top, red, black) !important;
-   border: 2px groove darkred;
+   border-right: 2px groove darkred;
    width: 100% !important;
    font-size: 1.23em !important;
    color: white;
@@ -746,11 +808,12 @@ border: 3.75px groove #2d3846;
     opacity: .85;
   }
   .fight-video{
-        margin-top: 2%;
+    margin-top: 2%;
     margin-left: auto;
-  margin-right: auto;
-  display: table;
-  height: auto;
+    margin-right: auto;
+    display: table;
+    height: auto;
+    z-index: 1;
   }
 
   div.article{
@@ -1113,7 +1176,6 @@ border: 3.75px groove #2d3846;
     opacity: 0.8;
     position: relative;
     border: none;
-        margin-top: 8%;
 
   }
 
@@ -1701,20 +1763,47 @@ border: 3.75px groove #2d3846;
       width: 108%;
 
   }
-
   .chatroom{
-
+    left: 20px;
+  position: fixed;
+  z-index: 1;
+  border: none;
+  width: 40px;
+  height: 40px;
+  bottom: 15px;
+  right: 20px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+   background: transparent;
   }
   .chatroom-icon{
-       left: 20px;
-        position: fixed;
-        z-index: 1;
-        border: none;
-        width: 35px;
-        height: 35px;
-        bottom: 25px;
-        right: 20px;
-        background: transparent;
+        left: 20px;
+      position: fixed;
+      z-index: 1;
+      border: none;
+      width: 40px;
+      height: 40px;
+      bottom: 15px;
+      right: 20px;
+      -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+      border-radius: 35px;
+        background: rgba(0, 0, 0, 0.7);
+  }
+  .chatroom-icon:hover{
+        left: 20px;
+      position: fixed;
+      z-index: 1;
+      border: none;
+      width: 40px;
+      height: 40px;
+      bottom: 15px;
+      right: 20px;
+      -webkit-border-radius: 35px;
+      -moz-border-radius: 35px;
+      border-radius: 35px;
+        background: rgba(0, 0, 0, 1);
   }
   .modal-content {
       position: relative;
@@ -1722,6 +1811,39 @@ border: 3.75px groove #2d3846;
       display: -ms-flexbox;
       box-shadow: 3px 2px 2px 6px #b71c1c;
           margin-top: 8%;
+    }
+    button#full-screen{
+      background: -webkit-gradient(linear,left top,left bottom,from(#e81224),to(#c12026));
+      background: (linear,left top,left bottom,from(#e81224),to(#c12026));
+      color: white;
+        font-size: .75em;
+        font-weight: 700;
+    }
+    button#full-screen:hover{
+      background: -webkit-gradient(linear,left top,left bottom,from(#c12026),to(#e81224));
+      background: (linear,left top,left bottom,from(#c12026),to(#e81224));
+      color: white;
+        font-size: .75em;
+        font-weight: 700;
+    }
+
+    button#portable{
+      background: -webkit-gradient(linear,left top,left bottom,from(#e81224),to(#c12026));
+      background: (linear,left top,left bottom,from(#e81224),to(#c12026));
+      color: white;
+        font-size: .75em;
+        font-weight: 700;
+        margin-left: 1.5%;
+        border-color: transparent !important;
+    }
+    button#portable:hover{
+      background: -webkit-gradient(linear,left top,left bottom,from(#c12026),to(#e81224));
+      background: (linear,left top,left bottom,from(#c12026),to(#e81224));
+      color: white;
+        font-size: .75em;
+        font-weight: 700;
+          margin-left: 1.5%;
+                  border-color: transparent !important;
     }
   #nav-logo:hover{
     height: 46px;
@@ -1734,8 +1856,8 @@ border: 3.75px groove #2d3846;
   a.nav-link{
     text-align: center;
      width: 100% !important;
-   border: 2px solid darkred;
-   font-size: 1.23em !important;
+   border-right: 2px solid darkred;
+   font-size: 1.13em !important;
    color: white !important;
    text-shadow:
      -2px -2px 0 #000,
@@ -1746,9 +1868,9 @@ border: 3.75px groove #2d3846;
   a.nav-link:hover{
     background: -webkit-linear-gradient(bottom, black, red) !important;
     background: linear-gradient(to top, red, black) !important;
-   border: 2px groove darkred;
+   border-right: 2px groove darkred;
    width: 100% !important;
-   font-size: 1.23em !important;
+   font-size: 1.13em !important;
    color: white;
    text-shadow:
      -4px -4px 0 #000,
@@ -2315,12 +2437,11 @@ border: 3.75px groove #2d3846;
   }
   .fight-video{
     margin-top: 2%;
-
-
     margin-left: auto;
     margin-right: auto;
     display: table;
     height: auto;
+    z-index: 1;
   }
 
   div.article{
@@ -2397,7 +2518,6 @@ border: 3.75px groove #2d3846;
   div#chatroom{
     width: 98%;
     height: 100% !important;
-
     border: 4px groove red;
     border-radius: 2px;
     height: auto;
@@ -2405,12 +2525,6 @@ border: 3.75px groove #2d3846;
     background-image: url(http://www.bpmayhem.com/bg-img1.jpg);
     background-size: cover;
     overflow: hidden;
-
-  }
-  iframe#chatroom2{
-    display: block;
-    border-radius: 3px;
-    margin-left: 2%;
 
   }
   #divPowered{
