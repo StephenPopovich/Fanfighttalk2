@@ -1,6 +1,37 @@
 *{
 
 }
+#button {
+  right: 20px;
+  position: fixed;
+  z-index: 1;
+  border: none;
+  width: 60px;
+  height: 60px;
+  bottom: 15px;
+  right: 20px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 .flip {
   -webkit-perspective: 800;
   -ms-perspective: 800;
@@ -117,7 +148,7 @@ button.btn.btn-danger:hover{
   font-weight: 700;
   border-radius: 4px;
 }
-button.btn.btn-warning{
+a.btn.btn-warning{
       background: -webkit-gradient(linear,left top,left bottom,from(#faa51a),to(#f47a20)) !important;
       color: white;
       font-family: ProximaNovaRegular,sans-serif;
@@ -132,7 +163,7 @@ button.btn.btn-warning{
       border-color: none !important;
       text-shadow: 2px 2px 4px #000000;
 }
-button.btn.btn-warning:hover{
+a.btn.btn-warning:hover{
       background: -webkit-gradient(linear,left top,left bottom,from(#f47a20),to(#faa51a)) !important;
       color: white;
       font-family: ProximaNovaRegular,sans-serif;
@@ -146,48 +177,7 @@ button.btn.btn-warning:hover{
       border-radius: 4px;
         border-color: none;
 }
-#return-to-top {
-      z-index: 1;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top i {
-      z-index: 1;
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
-#return-to-top:hover i {
-    color: #fff;
-    top: 5px;
-}
+
 .close {
     float: right;
     font-size: 1.92em !important;
@@ -209,7 +199,20 @@ button.btn.btn-warning:hover{
 .modal-sm {
     max-width: 500px;
 }
-
+button.invisible-button{
+  background: transparent;
+  border-color: transparent;
+  border: none !important;
+border-color: transparent;
+outline: none;
+}
+button.invisible-button:focus{
+  background: transparent;
+  border-color: transparent;
+  border: none !important;
+border-color: transparent;
+outline: none;
+}
 iframe#chatroom-modal{
     border: 3.75px groove darkred;
     border-radius: 8px;
@@ -1185,6 +1188,10 @@ p {
   height: 100%;
 
 }
+a.grey-text.text-lighten-3{
+  color: white !important;
+}
+
 img#footer_logo{
   width: 12%;
   height: 10%;
