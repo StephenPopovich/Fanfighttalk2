@@ -1,7 +1,6 @@
 
 $( document ).ready(function() {
 
-
     console.log( "ready!" );
     /* card flip */
     $(".flip").hover(function(){
@@ -45,8 +44,6 @@ $( document ).ready(function() {
       $(document).find(".nineth").toggleClass("flipped");
       return false;
     });
-
-
 
 if (screen.width < 960) {
   $("#full-screen").click(function(){
@@ -106,15 +103,6 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
-});
-modalConfirm(function(confirm){
-  if(confirm){
-    //Acciones si el usuario confirma
-    $("#result").html("CONFIRMADO");
-  }else{
-    //Acciones si el usuario no confirma
-    $("#result").html("NO CONFIRMADO");
-  }
 });
 $("li.dropdown").click(function(e){
   $(this).toggleClass("open");
